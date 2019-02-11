@@ -31,7 +31,8 @@ If you have fulfilled the Basic Requirements, attempt some of these stretch goal
 * Populate with custom images. This is not really a JS stretch, but you could populate the whole thing with custom images that serve your needs. Perhaps you want to run a viral image sharing campaign on social media? (Note: You can allow people to submit image URLs to use images from other sites, but those might not work for a variety of reasons.)
 * Enhance the presentation of the image maker form. This form is not very well styled out of the box. Improve the user experience by making this form better looking.
 * Add additional elements to the image composition. You can create additional text, bars, icons, etc. to add to the image. This involves both creating the elements in the `#image-preview` and also adding form fields to allow a user to modify the additional elements.
-* Allow the user to select the size of image to output. The `generateImage()` function in the `ImageMaker` class will accept parameters for `height` and `width`. You could allow users to change the size of the image they generate (and preview).
+* Allow the user to select the size of image to output. The `generateImage()` function in the `ImageMaker` class will accept parameters for `height` and `width`. You could allow users to change the size of the image they generate (and preview).  
+* Experiment with using the HTML 5 Datalist element instead of the Select element.
 
 ## Credits
 The images are previewed in HTML using JavaScript to adjust styles and content.
