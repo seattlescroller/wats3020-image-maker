@@ -1,15 +1,13 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-
   <title>WATS 3020: Image Maker</title>
   <meta name="description" content="WATS 3020 Image Maker">
   <meta name="author" content="Jonathan Bechtol">
-
   <link rel="stylesheet" href="css/main.css">
-
   <script src="js/dom-to-image.js"></script>
   <script src="js/main.js" defer></script>
 </head>
@@ -17,15 +15,16 @@
 <body>
   <div id="form-container">
     <h1>Image Maker</h1>
-    <p>Choose your settings to generate an image.</p>
+    <p>Choose your settings to generate an image. Max characters allowed per text box is 70.</p>
+
     <form>
       <p>
         <label for="topText">Top Text</label>
-        <input name="topText" placeholder="Text for top of image." value="">
-      </p>
+        <input name="topText" placeholder="Text for top of image." value="" maxlength="70">
+      </p> 
       <p>
         <label for="bottomText">Bottom Text</label>
-        <input name="bottomText" placeholder="Text for bottom of image." value="">
+        <input name="bottomText" placeholder="Text for bottom of image." value=""; maxlength="70">
       </p>
       <p>
         <label for="backgroundImage">Background</label>
@@ -37,12 +36,13 @@
           <option value="stark.jpg">stark</option>
         </select>
       </p>
-      <p><input type="submit" value="Download Image"></p>
+      <p> <input type="submit" value="Download Image"></p>
     </form>
-  </div>
 
+  </div>
   <div id="image-preview">
     <!-- Image Content Goes Here -->
   </div>
+  
 </body>
 </html>
